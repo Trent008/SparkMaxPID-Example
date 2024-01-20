@@ -30,6 +30,6 @@ class Robot : public frc::TimedRobot {
 
  private:
  // create a motor object with can ID 11
-  NeoMotor motor{11};
+  NeoMotor motor;
   frc::XboxController controller{0};
 };
