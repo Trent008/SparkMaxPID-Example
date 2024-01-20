@@ -21,7 +21,7 @@ public:
         pidController.SetIZone(0);
         pidController.SetFF(0);
         // set output range
-        motor.GetPIDController().SetOutputRange(-1, 1);
+        pidController.SetOutputRange(-1, 1);
         motor.BurnFlash();
     }
 
